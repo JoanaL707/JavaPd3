@@ -33,7 +33,7 @@ int l = 90;
 int c = 70;
 int sum1 = (70+90+70)*3;
 
-System.out.println(sum1);
+System.out.println("The result is"+sum1);
 
 /*  
     Challenge 3:
@@ -44,7 +44,7 @@ System.out.println(sum1);
 */
 
 int o = 6370;
-System.out.println(o);
+System.out.println("The result is"+o);
 
 
 /*  
@@ -56,7 +56,7 @@ System.out.println(o);
   int x = 9;
 
 int sum2 = (A/x+1);
-System.out.println(sum2);
+System.out.println("The result is"+sum2);
 
 /* 
     Challenge 5:
@@ -69,7 +69,7 @@ System.out.println(sum2);
  int g = 10;
  int j = 9;
 int sum3= (2*g*g+1*-g/2)/j;
-System.out.println(sum3);
+System.out.println("The result is "+sum3);
 
 
 
@@ -88,7 +88,7 @@ int b = 7;
 
 int area = (1/2)*b*m;
 
-System.out.println(area);
+System.out.println("The result is"+area);
 
 
 /*  
@@ -107,9 +107,12 @@ System.out.println(area);
     are left over after we filled as many baskets of 12 eggs.
 */
 
+int eggs=100;
+int basket = 12;
 
+int p = (eggs/basket);
 
-
+System.out.println("The product is"+p);
 
     // **************************************************
     // **** Don't write any code below here.  ***********

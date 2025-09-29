@@ -79,37 +79,32 @@ System.out.println("Enter");
 double deg = Input.readDouble();
 double rad = Input.readDouble();
 double g=0;
-
 g = Math.sin(rad);
-
 System.out.println(g);
-
 /*  
     Challenge 7:
     Create the variables, ask the user for the variable values, write the equation in file EQ5-act6 and display the equation value.
     
 */
-
-
 System.out.println("Enter in K");
 double m = Input.readDouble();
 double n = Input.readDouble();
 double K =0;
-
  K = Math.pow(m,5) / Math.sqrt(n+1);
 System.out.println(K);
-
-
-
 /*  
     *** Bonus Challenge ***:
     Create the variables, ask the user for the variable values, write the equation in file Ch-act6 and display the equation value.
 
     HINT: What does the "plus minus: after "-b" mean.
 */
+System.out.println("Enter in the variable valuse");
+Double b = Input.readDouble();
+Double a = Input.readDouble();
+Double c = Input.readDouble();
+double x=0;
 
-
-
+x = Math.sqrt(Math.pow(b-4ac))/ Math.pow(2a);
 
 
     // **************************************************
