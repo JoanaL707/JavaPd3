@@ -2,17 +2,20 @@
 //Write a function "print" which takes in a string and displays it to the console. Test the function to make sure it works.
 
 
-
-/*public class Main {
+/*
+public class Main {
 
 	public static void main(String[] args) {
     
 		String msag = "iugdjv";
 		print(msag);
+		print(msag);
+		print(msag);
+		print(msag);
 
 }
 static void print(String msag){
-System.out.println("name "+msag);
+System.out.println("the message is: "+msag);
 
 	}
 
@@ -24,9 +27,9 @@ System.out.println("name "+msag);
 //Write a function "FtoC" that converts temperature in degrees Fahrenheit to Celsius. The function will take in temperature in Fahrenheit and return the temperature in Celcius. 
 //Google the formula.
 
-
-
 /*
+
+
 public class Main{
 	public static void main(String[] args){
 	double cel = FtoC(72.5);
@@ -39,8 +42,8 @@ return C;
 }
 
 }
-*/
 
+*/
 
 
 //Challenge 3:
@@ -50,7 +53,6 @@ return C;
 
 
 
-/*
 public class Main{
 	public static void main(String[] args){
 double radius =5;
@@ -63,7 +65,7 @@ return(4.0/3.0)*Math.PI*Math.pow(radius,3);
 
 }
 }
-*/
+
 
 
 
@@ -75,7 +77,7 @@ Google the formula.
 
 
 
-/*
+
 public class Main{
 public static void main(String[] args){
 double radius = 5;
@@ -89,7 +91,6 @@ return(1.0/3.0)*Math.PI*Math.pow(radius,2)*height;
 }
 
 }
-*/
 
 
 //Challenge 5:
@@ -97,6 +98,7 @@ return(1.0/3.0)*Math.PI*Math.pow(radius,2)*height;
 //Write a function "distance" that calculate the distance between two points (x1,y1) and (x2,y2). The function will need to take paramaters that represents two points.
 //Google the formula.
 
+/*
 
 public class Main{
 	public static void main(String[] args){
@@ -116,3 +118,5 @@ return Math.sqrt(Math.pow(diffX,2)+Math.pow(diffY,2));
 }
 
 }
+
+*/
